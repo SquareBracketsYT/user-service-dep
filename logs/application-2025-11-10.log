@@ -1,0 +1,6 @@
+{"level":"info","message":"User service is running on port 1234","timestamp":"2025-11-10T07:31:34.465Z"}
+{"level":"error","message":"RabbitMQ connection failed (Attempt 1): connect ECONNREFUSED 172.18.0.4:5672","timestamp":"2025-11-10T07:31:34.470Z"}
+{"level":"info","message":"Retrying in 5 seconds...","timestamp":"2025-11-10T07:31:34.470Z"}
+{"level":"info","message":"Connected to RabbitMQ","timestamp":"2025-11-10T07:31:39.527Z"}
+{"level":"info","message":"Waiting for messages in userQueue...","timestamp":"2025-11-10T07:31:39.538Z"}
+{"level":"info","message":"Waiting for messages in queue: userQueue","timestamp":"2025-11-10T07:31:39.538Z"}
