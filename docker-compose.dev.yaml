@@ -22,11 +22,11 @@ services:
   user-service:
     # Image
     build:
-      context: ./user-service
+      context: .
     ports:
       - "1234:1234"
     volumes:
-      - ./user-service:/app
+      - ./:/app
     depends_on:
       - mongo-db
       - rabbitmq
