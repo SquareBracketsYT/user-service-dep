@@ -24,8 +24,6 @@ services:
       context: .
     ports:
       - "1234:1234"
-    volumes:
-      - ./:/app
     depends_on:
       - mongo-db
       - rabbitmq
